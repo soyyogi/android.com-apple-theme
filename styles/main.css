@@ -139,3 +139,9 @@ header {
 .cta-link-darker:hover {
     border-bottom-color: #0070c9;
 }
+
+/* devices section */
+
+.devices {
+    background:#0e0e0e;
+}
