@@ -239,7 +239,63 @@ header {
         transition: transform 0.3192s 0.1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
     }
 
+    header.active {
+        height: 100%;
+        background-color: #0e0e0e;
+    }
+
+    .nav-link-android {
+        position: relative;
+        z-index: 2000;
+    }
+
+    .nav {
+        position: relative;
+    }
+
+    .nav-link {
+        font-size: 1.7rem;
+        margin: auto 0;
+    }
+
     .nav-list-larger {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
         display: none;
+        padding: 10.5rem 5rem;
+        z-index: 1000;
+        box-sizing: border-box;
+        transition: opacity 0.3s;
+    }
+
+    .active .nav-list-larger {
+        display: block;
+        opacity: 1;
+    }
+
+    .nav-list-larger .nav-item {
+        width: 100%;
+        justify-content: flex-start;
+        border-bottom: 2px solid rgba(255,255,255,0.1);
+    }
+
+    .nav-list-larger .nav-item:nth-child(6) {
+        border-bottom: none;
+    }
+
+    .active .nav-list-larger .nav-item {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 }
