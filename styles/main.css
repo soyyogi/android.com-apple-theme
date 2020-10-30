@@ -122,3 +122,20 @@ header {
 .cta-link:hover {
     border-bottom: 2px solid #66bbff;
 }
+
+/* android 11 section */
+.android-11 {
+    background: url("https://lh3.googleusercontent.com/b4HPFIhOS9iAYfKu8cVKUSFgK7LbcFI2SSQn7tHF0RDXzlacbG4d8mEjGNpu2TQLdIT-AyQxY0ZvdhG5tztwNp5oEG2eaONN37AFOA=w527-rw-e365-v1") 50% 160% no-repeat;
+}
+
+.title-dark {
+    color: #000;
+}
+
+.cta-link-darker {
+    color: #0070c9;
+}
+
+.cta-link-darker:hover {
+    border-bottom-color: #0070c9;
+}
