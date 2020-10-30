@@ -1,5 +1,6 @@
 :root{
     --header-letter-white: #F5F5F7;
+    --letter-black: #1d1d1f;
 }
 /*code to save */
 
@@ -7,7 +8,7 @@ body {
     
 font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
-
+/* SECTION 1 STYLES*/
 #android-powers-it{
 
     background-color: black;
@@ -24,7 +25,6 @@ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial
 }
 
 #section-1-cloud-image {
-    
         flex-basis: 100%;
         max-width: 100%
 }
@@ -33,6 +33,9 @@ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial
     text-align: center;
 
 }
+
+
+
 
 figure {
     display: block;
@@ -44,7 +47,11 @@ figure {
     text-align: center;
 }
 
+/*SECTION 2 STYLES*/
 
+#pixel-featured {
+
+}
 
 
 
