@@ -25,9 +25,24 @@ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial
 
 #section-1-cloud-image {
     
+        flex-basis: 100%;
+        max-width: 100%
 }
 
+#section-1-img {
+    text-align: center;
 
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    max-width: 734px;
+    text-align: center;
+}
 
 
 
