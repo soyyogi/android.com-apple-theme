@@ -1,3 +1,4 @@
+/* global */
 *,
 *::before,
 *::after {
@@ -20,7 +21,7 @@ a {
     margin: 0 auto;
     padding: 0 2.2rem;
 }
-
+/* header section */
 header {
     position: fixed;
     top: 0;
@@ -66,4 +67,58 @@ header {
     object-fit: cover;
     object-position: top;
     margin-top: 5px;
+}
+
+.hero {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6rem solid #fff;
+    border-bottom: 0.6rem solid #fff;
+}
+
+/* latest features section */
+.latest-features {
+    margin-top: 4.4rem;
+    border-top: none;
+    background: url(../img/falls-features.png) bottom no-repeat, #0e0e0e;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading {
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -0.005rem;
+}
+
+.title-paragraph {
+    font-size: 1.7rem;
+    color: #fff;
+    margin-top: 0.68rem;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.cta-link {
+    color: #66bbff;
+    font-size: 1.5rem;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.cta-link:nth-child(2) {
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover {
+    border-bottom: 2px solid #66bbff;
 }
