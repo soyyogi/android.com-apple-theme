@@ -87,6 +87,12 @@
             </marquee>
         </div>
     </section>
-    
+
+    <script>
+        const selectedEl = (element) => document.querySelector(element);
+        selectedEl('.mobile-menu').addEventListener('click', () => {
+            selectedEl('header').classList.toggle('active');
+        })
+    </script>
 </body>
 </html>
