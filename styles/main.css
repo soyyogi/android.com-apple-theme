@@ -146,6 +146,24 @@ header {
     background:#0e0e0e;
 }
 
+/* feature list section */
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-list .container:nth-child(2) {
+    position: relative;
+    top: -1rem;
+}
+
+.feature-img {
+    width: 60rem;
+}
+
+/* media queries */
 @media screen and (max-width: 425px) {
     .latest-features {
         background: url(../img/falls-features.png) 50% 115% no-repeat, #0e0e0e;
