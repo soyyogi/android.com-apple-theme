@@ -74,14 +74,11 @@ h3 {
     letter-spacing: -.022em;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     text-align: center;
+    margin-top: 30px;
 }
-
-
-
 #section-2-content {
     margin-bottom: 2em;
 }
-
 #section-2-img {
     text-align: center;
     width: 200px;
@@ -101,7 +98,9 @@ h3 {
     flex-flow: row wrap;
     justify-content: center;
     align-items: baseline;
+    margin-top: 20px;
 }
+
 h4 {
     font-size: 19px;
     margin: 15px 0px 15px;
