@@ -211,7 +211,7 @@ h4 {
 
 #gallery-img-s7 {
     width:300px;
-    object-fit: fill;
+    object-fit: contain;
     margin-bottom: 0px;
 
 }
@@ -223,7 +223,7 @@ h4 {
     letter-spacing: -.022em;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     text-align: center;
-    padding: 0 20px 20px;
+    padding: 0 40px 20px;
 }
 
 #flex-container-s7{
