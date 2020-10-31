@@ -1,6 +1,7 @@
 :root{
     --header-letter-white: #F5F5F7;
     --letter-black: #1d1d1f;
+    --button-and-link-blue: #0071E3;
 }
 /*code to save */
 
@@ -81,6 +82,29 @@ figure {
 #section-2-div-p_button {
     margin-left: auto;
     margin-right: auto;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+
+a {
+    margin: 16px 19px 10px;
+    font-size: 17px;
+    color: var(--button-and-link-blue);
+    text-decoration: none;
+}
+
+#section-2-content {
+    margin-bottom: 2em;
+}
+
+#section-2-img {
+    text-align: center;
+    width: 200px;
+
 }
 
 
