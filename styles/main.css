@@ -154,7 +154,7 @@ header {
     text-align: center;
 }
 
-.feature-list .container:nth-child(2) {
+.feature-list-1 .container:nth-child(2) {
     position: relative;
     top: -1rem;
 }
@@ -164,7 +164,7 @@ header {
     margin-top: 2rem;
 }
 
-.feature-list .container:nth-child(2) .feature-img {
+.feature-list-1 .container:nth-child(2) .feature-img {
     position: relative;
     top: 2rem;
 }
