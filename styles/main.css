@@ -197,6 +197,15 @@ footer {
     opacity: 0.7;
 }
 
+.footer-legal {
+    border-top: #515154 1px solid;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    opacity: 0.6;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* media queries */
 @media screen and (max-width: 1440px) {
     .feature-list-1 .container:nth-child(2) {
@@ -532,6 +541,14 @@ footer {
         to {
             opacity: 1;
         }
+    }
+
+    .footer-legal {
+        flex-direction: column;
+    }
+
+    .footer-legal p:nth-child(2) {
+        margin-bottom: 1rem;
     }
 
 }
