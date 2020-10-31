@@ -161,6 +161,12 @@ header {
 
 .feature-img {
     width: 60rem;
+    margin-top: 2rem;
+}
+
+.feature-list .container:nth-child(2) .feature-img {
+    position: relative;
+    top: 2rem;
 }
 
 /* media queries */
