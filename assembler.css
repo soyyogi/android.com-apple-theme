@@ -151,7 +151,25 @@ h4 {
 
 #section-4-img {
     width: 300px;
+    text-align: center;
+    justify-content: center;
+    object-fit: cover;
 }
+
+.gallery-item-s4 {
+    margin: 0px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: inherit;
+}
+
+.gallery-img-s4 {
+    width: 150px;
+    justify-content: inherit;
+    
+}
+
 
 /*SECTION 5 STYLES*/
 
