@@ -50,8 +50,42 @@ figure {
 /*SECTION 2 STYLES*/
 
 #pixel-featured {
+    color: var(--letter-black);
+    background-color:#f2f2f2;
+    padding: 56px 0px 19px;
 
 }
+
+#section-2-main-div {
+    text-align: center;
+}
+
+#section-2-h2 {
+    display: block;
+    text-align: center;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+#section-2-h3 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+
+}
+
+#section-2-div-p_button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
 
 
 
