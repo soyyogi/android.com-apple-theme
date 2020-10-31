@@ -160,6 +160,42 @@ header {
     margin-top: 2rem;
 }
 
+footer {
+    margin-top: 0;
+    padding: 2rem 0;
+    background: #f5f5f7;
+    height: auto;
+    color: #1d1d1f;
+    font-size: 1.2rem;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list-footer {
+    list-style: none;
+}
+
+.nav-list-footer-mobile {
+    display: none;
+}
+
+.nav-item-footer {
+    margin-bottom: 1rem;
+}
+
+.nav-link-footer {
+    font-size: 1.2rem;
+    color: #515154;
+    transition: opacity 0.5s;
+}
+
+.nav-link-footer:hover {
+    opacity: 0.7;
+}
+
 /* media queries */
 @media screen and (max-width: 1440px) {
     .feature-list-1 .container:nth-child(2) {
