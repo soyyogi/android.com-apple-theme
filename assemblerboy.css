@@ -168,3 +168,41 @@ h4 {
     justify-content: center;
     }
 
+/*SECTION 7 STYLES*/
+
+#android-for-enterprise {
+    color: var(--letter-black);
+    background-color:;
+    padding: 0px;
+    }
+
+#gallery-img-s7 {
+    width: 500px;
+    margin-left: 110px;
+}
+
+#content-s7 {
+    margin: 20px 20px;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+
+#flex-container-s7{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*SECTION 8 STYLES*/
+
+#android-one-phones {
+    color: var(--letter-black);
+    background-color: #f2f2f2;
+    padding: 56px 0px 19px;
+    }
