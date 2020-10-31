@@ -155,4 +155,9 @@ h4 {
     padding: 56px 0px 19px;
 }
 
+/*SECTION 6 STYLES*/
 
+#foldable-devices-gallery {
+    color: var(--letter-black);
+    background-color:#f2f2f2;
+    padding: 56px 0px 19px;
