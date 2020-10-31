@@ -14,7 +14,7 @@ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial
 
     background-color: black;
     color: var(--header-letter-white);
-    padding: 122px 0px 19px;
+    padding: 0px 0px 19px;
     text-align: center;
 
 }
@@ -301,8 +301,23 @@ h4 {
     background-color: var(--button-and-link-blue);
     padding: 8px 16px;
     border-radius: 20px;
-    width: 30px;
+    width: 100px;
     margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-heading {
+    font-size: 14.04px;
+    text-align: left;
+    margin: 16px 19px 10px;
+    
 
 }
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 
