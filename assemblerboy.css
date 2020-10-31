@@ -71,7 +71,7 @@ figure {
     
 }
 
-#section-2-h3 {
+h3 {
     font-size: 40px;
     line-height: 1.1;
     font-weight: 600;
@@ -79,7 +79,7 @@ figure {
 
 }
 
-#section-2-div-p_button {
+.content {
     margin-left: auto;
     margin-right: auto;
     font-size: 17px;
