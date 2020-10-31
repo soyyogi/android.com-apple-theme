@@ -128,7 +128,7 @@ a {
 
 h4 {
     font-size: 19px;
-    margin: 0px 0px 15px;
+    margin: 15px 0px 15px;
     color: var(--letter-black);
 
 }
@@ -147,9 +147,12 @@ h4 {
     padding: 56px 0px 19px;
 
 
+/*SECTION 5 STYLES*/
 
-.flex-container-2 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+#popular-picks-gallery {
+    color: var(--letter-black);
+    background-color:white;
+    padding: 56px 0px 19px;
 }
+
+
