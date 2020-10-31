@@ -58,7 +58,7 @@ figure {
     margin-inline-end: 0px;
 }
 
-h3 {
+.h3-general {
     font-size: 40px;
     line-height: 1.1;
     font-weight: 600;
@@ -101,7 +101,7 @@ h3 {
     margin-top: 20px;
 }
 
-h4 {
+.h4-general {
     font-size: 19px;
     margin: 15px 0px 15px;
     color: var(--letter-black);
