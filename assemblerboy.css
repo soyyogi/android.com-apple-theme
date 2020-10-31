@@ -145,19 +145,26 @@ h4 {
     color: var(--letter-black);
     background-color:#f2f2f2;
     padding: 56px 0px 19px;
-
+}
 
 /*SECTION 5 STYLES*/
 
 #popular-picks-gallery {
     color: var(--letter-black);
-    background-color:white;
+    background-color:;
     padding: 56px 0px 19px;
-}
+    }
 
 /*SECTION 6 STYLES*/
 
-#foldable-devices-gallery {
+.featured-tablets {
     color: var(--letter-black);
-    background-color:#f2f2f2;
+    background-color: #f2f2f2;
     padding: 56px 0px 19px;
+    }
+
+.gallery-img-tablet {
+    width: 300px;
+    justify-content: center;
+    }
+
