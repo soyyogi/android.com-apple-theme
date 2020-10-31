@@ -151,7 +151,7 @@ h4 {
 
 #popular-picks-gallery {
     color: var(--letter-black);
-    background-color:;
+    background-color:white;
     padding: 56px 0px 19px;
     }
 
@@ -203,7 +203,15 @@ h4 {
 /*SECTION 8 STYLES*/
 
 #android-one-phones {
+    color: var(--header-letter-white);
+    background-color: black;
+    padding: 56px 0px 19px;
+    }
+
+/*SECTION 9 STYLES*/
+
+#android-go-edition {
     color: var(--letter-black);
-    background-color: #f2f2f2;
+    background-color: var(--header-letter-white);
     padding: 56px 0px 19px;
     }
