@@ -203,18 +203,10 @@ h4 {
     }
 
 #gallery-item-s7{
-    max-width: 250px;
-    display: flex;
-    justify-content: center;
-    contain: fit;
+
+    background-image: url("https://lh3.googleusercontent.com/MC1aJT25RlAyI4J0n8SnIem-A-s3iX3TXcf2PhdiE_G9PDhV8WIlHILqSYotcM5aaVF8fMA6ZghYwdnovN8_tpe5tX60ZZ6gSB0ojg");
 }
 
-#gallery-img-s7 {
-    width:300px;
-    object-fit: contain;
-    margin-bottom: 0px;
-
-}
 
 #content-s7 {
     font-size: 17px;
@@ -223,7 +215,7 @@ h4 {
     letter-spacing: -.022em;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     text-align: center;
-    padding: 0 40px 20px;
+    padding: 20px 40px 20px;
 }
 
 #flex-container-s7{
