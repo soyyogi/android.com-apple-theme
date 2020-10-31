@@ -215,3 +215,22 @@ h4 {
     background-color: var(--header-letter-white);
     padding: 56px 0px 19px;
     }
+
+
+/*SECTION 11 STYLES*/
+
+#make-the-switch {
+    color: var(--header-letter-white);
+    background-color: rgb(28, 28, 28);
+    padding: 56px 0px 19px;
+    }
+
+#section-11-h3 {
+    font-size: 56px;
+}
+
+#section-11-p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
