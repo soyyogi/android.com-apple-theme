@@ -152,24 +152,87 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-}
-
-.feature-list-1 .container:nth-child(2) {
-    position: relative;
-    top: -1rem;
+    margin: 0 2rem;
 }
 
 .feature-img {
-    width: 60rem;
+    width: 100%;
     margin-top: 2rem;
 }
 
-.feature-list-1 .container:nth-child(2) .feature-img {
-    position: relative;
-    top: 2rem;
+/* media queries */
+@media screen and (max-width: 1440px) {
+    .feature-list-1 .container:nth-child(2) {
+        position: relative;
+        top: -4rem;
+    }
+
+    .feature-list-1 .container:nth-child(2) .feature-img {
+        position: relative;
+        top: 8rem;
+    }
+
+    .feature-list-2 .container:nth-child(1) {
+        position: relative;
+        top: -1rem;
+    }
+
+    .feature-list-2 .container:nth-child(1) .feature-img {
+        position: relative;
+        top: 2rem;
+    }
 }
 
-/* media queries */
+@media screen and (max-width: 1430px) {
+    .feature-list-2 .container:nth-child(1) .feature-img {
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1389px) {
+    .feature-list-1 .container:nth-child(2) {
+        position: relative;
+        top: -1rem;
+    }
+
+    .feature-list-1 .container:nth-child(2) .feature-img {
+        position: relative;
+        top: 2rem;
+    }
+
+    .feature-list-2 .container:nth-child(1) {
+        top: 0;
+    }
+
+    .feature-list-2 .container:nth-child(1) .feature-img {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 1198px) {
+    .feature-list-1 .container:nth-child(2) {
+        top: 0.2rem;
+    }
+
+    .feature-list-1 .container:nth-child(2) .feature-img {
+        top: -0.2rem;
+    }
+}
+
+@media screen and (max-width: 1008px) {
+    .feature-list .title-heading {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 914px) {
+    .feature-list {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .latest-features {
         background: url(../img/falls-features.png) 50% 115% no-repeat, #0e0e0e;
@@ -179,8 +242,12 @@ header {
         background: url("https://lh3.googleusercontent.com/b4HPFIhOS9iAYfKu8cVKUSFgK7LbcFI2SSQn7tHF0RDXzlacbG4d8mEjGNpu2TQLdIT-AyQxY0ZvdhG5tztwNp5oEG2eaONN37AFOA=w527-rw-e365-v1") 50% 170% no-repeat;
     }
 
-    .title-heading {
-        font-size: 4.4rem;
+    .feature-list .title-heading, .title-heading {
+        font-size: 3.5rem;
+    }
+
+    .feature-list {
+        margin: 0;
     }
 
     .cta-link:nth-child(2) {
