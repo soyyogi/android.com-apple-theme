@@ -111,10 +111,11 @@ a {
 /*SECTION 3 STYLES*/
 
 .gallery-item{
-    margin: 20px 20px;
+    margin: 60px 60px;
     max-width: 250px;
     display: flex;
     justify-content: center;
+    contain: fii;
     
 }
 
@@ -122,6 +123,7 @@ a {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: baseline;
 }
 
 h4 {
@@ -134,7 +136,7 @@ h4 {
 .gallery-img {
     width: 150px;
     justify-content: center;
-    text-align: center;
+    
 }
 
 /*SECTION 4 STYLES*/
@@ -144,10 +146,7 @@ h4 {
     background-color:#f2f2f2;
     padding: 56px 0px 19px;
 
-#gallery-img-section-4 {
-    width: 200px;
-    
-    }
+
 
 .flex-container-2 {
     display: flex;
