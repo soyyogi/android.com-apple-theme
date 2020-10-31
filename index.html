@@ -143,6 +143,12 @@
                             <h3 class="nav-list-footer-heading">For Developers</h3>
                         </div>
                     </li>
+                    <li class="nav-item-footer">
+                        <div class="mobile-menu-footer">
+                            <span class="line line-top"></span>
+                            <span class="line line-bottom"></span>
+                        </div>
+                    </li>
                 </ul>
                 <!-- /.nav-list-footer nav-list-footer-mobile -->
                 <ul class="nav-list-footer nav-list-footer-larger">
@@ -166,6 +172,12 @@
                     <li class="nav-item-footer">
                         <div class="mobile-menu-footer">
                             <h3 class="nav-list-footer-heading">For Enterprise</h3>
+                        </div>
+                    </li>
+                    <li class="nav-item-footer">
+                        <div class="mobile-menu-footer">
+                            <span class="line line-top"></span>
+                            <span class="line line-bottom"></span>
                         </div>
                     </li>
                 </ul>
@@ -214,6 +226,12 @@
                             <h3 class="nav-list-footer-heading">For The Press</h3>
                         </div>
                     </li>
+                    <li class="nav-item-footer">
+                        <div class="mobile-menu-footer">
+                            <span class="line line-top"></span>
+                            <span class="line line-bottom"></span>
+                        </div>
+                    </li>
                 </ul>
                 <!-- /.nav-list-footer nav-list-footer-mobile -->
                 <ul class="nav-list-footer nav-list-footer-larger">
@@ -248,6 +266,12 @@
                             <h3 class="nav-list-footer-heading">The Ecosystem</h3>
                         </div>
                     </li>
+                    <li class="nav-item-footer">
+                        <div class="mobile-menu-footer">
+                            <span class="line line-top"></span>
+                            <span class="line line-bottom"></span>
+                        </div>
+                    </li>
                 </ul>
                 <!-- /.nav-list-footer nav-list-footer-mobile -->
                 <ul class="nav-list-footer nav-list-footer-larger">
@@ -271,6 +295,12 @@
                     <li class="nav-item-footer">
                         <div class="mobile-menu-footer">
                             <h3 class="nav-list-footer-heading">Support</h3>
+                        </div>
+                    </li>
+                    <li class="nav-item-footer">
+                        <div class="mobile-menu-footer">
+                            <span class="line line-top"></span>
+                            <span class="line line-bottom"></span>
                         </div>
                     </li>
                 </ul>
@@ -304,6 +334,14 @@
         const selectedEl = (element) => document.querySelector(element);
         selectedEl('.mobile-menu').addEventListener('click', () => {
             selectedEl('header').classList.toggle('active');
+        })
+
+        const footerArray = document.querySelectorAll('.nav-footer');
+        footerArray.forEach((el) => {
+            el.addEventListener('click', (e) => {
+                e.target.parentNode.parentNode.parentNode.parentNode.classList.toggle('active')
+                console.log(e.target.parentNode.parentNode.parentNode.parentNode)
+            })
         })
     </script>
 </body>
