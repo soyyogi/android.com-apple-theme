@@ -1,0 +1,26 @@
+{
+  "name": "android.com-apple-theme",
+  "version": "1.0.0",
+  "description": "This is a clone of android.com using the styles and layout of apple.com.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soyyogi/android.com-apple-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soyyogi/android.com-apple-theme/issues"
+  },
+  "homepage": "https://github.com/soyyogi/android.com-apple-theme#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
