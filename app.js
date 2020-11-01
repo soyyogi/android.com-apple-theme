@@ -26,4 +26,11 @@ app.get('/phone', (req, res) => {
         title: 'Phones & Tablets | Android'});
 });
 
+app.get('*', (req, res) => {
+    res.render('notfound', {
+        layout: 'notfound',
+        title: 'Not Found'
+    })
+})
+
 app.listen(port);
