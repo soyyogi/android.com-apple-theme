@@ -9,6 +9,7 @@ body {
     margin: 0 auto;
     padding: 0 auto;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #f5f5f7;
 }
 /* SECTION 1 STYLES*/
 #android-powers-it{
@@ -20,7 +21,7 @@ body {
 }
 #section-1-p {
     font-size: 40px;
-    margin: 0px;
+    margin: 0px 5px;
     font-weight: bold;
 }
 #section-1-img {
@@ -57,12 +58,16 @@ figure {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+#section-2-p {
+    margin: 0px 5px;
+}
 
 .h3-general {
     font-size: 40px;
     line-height: 1.1;
     font-weight: 600;
     letter-spacing: 0em;
+    margin-bottom: 30px;
 }
 
 .content {
@@ -110,6 +115,9 @@ figure {
     width: 150px;
     justify-content: center;
 }
+#section-3-p {
+    margin: 0px 5px;
+}
 
 /*SECTION 4 STYLES*/
 #foldable-devices-gallery {
@@ -138,12 +146,20 @@ figure {
     justify-content: inherit;
 }
 
+#section-4-p {
+    margin: 0px 5px;
+}
+
 /*SECTION 5 STYLES*/
 #popular-picks-gallery {
     color: var(--letter-black);
     background-color:white;
     padding: 56px 0px 19px;
     }
+
+#section-5-p {
+    margin: 0px 5px;
+}
 
 /*SECTION 6 STYLES*/
 .featured-tablets {
@@ -155,6 +171,10 @@ figure {
     width: 300px;
     justify-content: center;
     }
+
+#section-6-p {
+    margin: 0px 5px;
+}
 
 /*SECTION 7 STYLES*/
 
@@ -191,7 +211,8 @@ figure {
     width: 300px;
 }
 #section-8-p {
-    margin-bottom: 30px;
+    margin: 0px 6px 30px;
+
 }
 #section-8-div-p {
     margin-bottom: 30px;
@@ -203,17 +224,25 @@ figure {
     background-color: var(--header-letter-white);
     padding: 56px 0px 19px;
     }
+#section-9-p {
+    margin: 0px 5px;
+}
 /*SECTION 10 STYLES*/
-    .gallery-item-10{
+.gallery-item-10{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     }
-    .solo-items {
+.solo-items {
         width: 300px;
         justify-content: center;
         padding: 20px 0;
         }
+.device-gallery-grid__card {
+        justify-content: center;
+        text-align: center;
+        }
+
 
 /*SECTION 11 STYLES*/
 #make-the-switch {
@@ -227,7 +256,7 @@ figure {
 #section-11-p {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin: 0 6px 40px;
 }
 .blue-button {
     color: white;
@@ -241,10 +270,10 @@ figure {
 }
 
 
-.footer-heading {
+.footer-heading-2 {
     font-size: 14.04px;
     text-align: left;
-    margin: 16px 19px 10px;
+    margin: 16px 19px 0px 10px;
 }
 
 
