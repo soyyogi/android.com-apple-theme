@@ -8,3 +8,10 @@ Android inside apple
 # Stack used
 HTML5, CSS3, JavaScript
 Node, Express, Express-handlebars
+
+# Use Instructions
+install node modules using 'npm install' command
+execute 'npm run dev' for development || 'npm start' for production
+
+# Checkout git repo
+https://github.com/soyyogi/android.com-apple-theme
