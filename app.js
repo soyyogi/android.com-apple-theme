@@ -17,13 +17,19 @@ app.engine('handlebars', handlebars({
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.render('main', {title: 'Android | The platform pushing what’s possible'});
+    res.render('main', {
+        title: 'Android | The platform pushing what’s possible'
+    })
+    res.status(200)
+
 });
 
 app.get('/phone', (req, res) => {
     res.render('phone', {
         layout: 'phone',
-        title: 'Phones & Tablets | Android'});
+        title: 'Phones & Tablets | Android'
+    })
+    res.status(200)
 });
 
 app.get('*', (req, res) => {
@@ -31,6 +37,7 @@ app.get('*', (req, res) => {
         layout: 'notfound',
         title: 'Not Found'
     })
-})
+    res.status(404)
+});
 
 app.listen(port);
